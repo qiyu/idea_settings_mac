@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3e9e281f-deb1-4e24-98a1-5297292a50cb" name="lean1" url="http://l-lean1.cm.dev.cn0.qunar.com">
+        <fileTransfer host="l-lean1.cm.dev.cn0.qunar.com" port="2222" rootFolder="/home/q/workspace" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,18 @@
+<application>
+  <component name="RemoteServers">
+    <remote-server name="lean1" type="docker">
+      <configuration>
+        <option name="apiUrl" value="http://l-lean1.cm.dev.cn0.qunar.com:2375" />
+        <option name="certificatesPath" value="$USER_HOME$/.docker/machine/machines/default" />
+        <option name="pathMappings">
+          <list />
+        </option>
+      </configuration>
+    </remote-server>
+    <remote-server name="nexus1" type="docker">
+      <configuration>
+        <option name="apiUrl" value="http://l-nexus1.cm.qunar.cloud:1880" />
+      </configuration>
+    </remote-server>
+  </component>
+</application>

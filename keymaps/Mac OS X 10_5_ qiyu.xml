@@ -1,0 +1,133 @@
+<keymap version="1" name="Mac OS X 10.5+ qiyu" parent="Mac OS X 10.5+">
+  <action id="ChangesView.AddUnversioned">
+    <keyboard-shortcut first-keystroke="shift meta a" />
+    <keyboard-shortcut first-keystroke="meta alt a" />
+  </action>
+  <action id="ChangesView.Commit">
+    <keyboard-shortcut first-keystroke="meta alt c" />
+  </action>
+  <action id="ChangesView.UnshelveSilently" />
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="shift meta c" />
+    <keyboard-shortcut first-keystroke="meta alt c" />
+  </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="ctrl meta space" />
+  </action>
+  <action id="CompareDirs" />
+  <action id="CompareJars" />
+  <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.CloneRow">
+    <keyboard-shortcut first-keystroke="ctrl meta down" />
+  </action>
+  <action id="Console.TableResult.NextPage" />
+  <action id="Console.TableResult.PreviousPage" />
+  <action id="CopyElement" />
+  <action id="CopyPaths" />
+  <action id="DatabaseView.CopyAction" />
+  <action id="DatabaseView.CopyDdlAction" />
+  <action id="DatabaseView.ShowDiff" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="f6" />
+    <keyboard-shortcut first-keystroke="shift f5" />
+  </action>
+  <action id="Diagram.DeselectAll" />
+  <action id="Diff.SelectedChange" />
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="Diff.UpdatedFiles" />
+  <action id="EditorDuplicate" />
+  <action id="EditorDuplicateLines">
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="EditorToggleCase" />
+  <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.NewFolder" />
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="shift meta f" />
+    <keyboard-shortcut first-keystroke="meta alt f" />
+  </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+    <keyboard-shortcut first-keystroke="meta alt p" />
+  </action>
+  <action id="GotoAction" />
+  <action id="GotoChangedFile" />
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="ctrl meta o" />
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
+  <action id="GotoTest" />
+  <action id="GuiDesigner.Duplicate" />
+  <action id="Images.ShowThumbnails" />
+  <action id="IntroduceConstant" />
+  <action id="IntroduceField" />
+  <action id="IntroduceParameter" />
+  <action id="IntroduceProperty" />
+  <action id="Move" />
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="shift meta down" />
+    <keyboard-shortcut first-keystroke="meta alt down" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="shift meta up" />
+    <keyboard-shortcut first-keystroke="meta alt up" />
+  </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="NextOccurence" />
+  <action id="OverrideMethods">
+    <keyboard-shortcut first-keystroke="ctrl o" />
+    <keyboard-shortcut first-keystroke="meta o" />
+  </action>
+  <action id="PreviousOccurence" />
+  <action id="PublishGroup.Upload">
+    <keyboard-shortcut first-keystroke="meta alt u" />
+  </action>
+  <action id="RemoteHost.NewRemoteItem">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+    <keyboard-shortcut first-keystroke="meta alt r" />
+  </action>
+  <action id="Rerun">
+    <keyboard-shortcut first-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="SendEOF" />
+  <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="ShowUmlDiagramPopup" />
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="meta alt t" />
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="TagDocumentationNavigation" />
+  <action id="Uml.ShowDiff" />
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift meta u" />
+    <keyboard-shortcut first-keystroke="meta alt k" />
+  </action>
+  <action id="openAssertEqualsDiff" />
+</keymap>

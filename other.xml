@@ -1,0 +1,82 @@
+<application>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Resource management issuesJava</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="MavenPluginAppComponent">
+    <option name="fMavenPath" value="maven.bat" />
+    <option name="fNameFormat" value="$artifactId-$version" />
+    <option name="fJ2eePackagingMethodId" value="copy files" />
+    <option name="fPomSplitterPos" value="50" />
+    <option name="fGoalsSplitterPos" value="50" />
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="$USER_HOME$/n/bin/node">
+      <version-cache version="7.2.1" last-modified="1481133855000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/bin/node">
+      <version-cache version="8.9.1" last-modified="1513402729000" />
+      <npm-package value="/usr/local/lib/node_modules/npm" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/n/n/versions/node/7.2.1/bin/node">
+      <version-cache version="7.2.1" last-modified="1481060908000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/n/n/versions/node/6.9.2/bin/node">
+      <version-cache version="6.9.2" last-modified="1481051767000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v6.0.0/bin/node">
+      <version-cache version="6.0.0" last-modified="1461699710000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v4.4.0/bin/node">
+      <version-cache version="4.4.0" last-modified="1457490456000" />
+    </local-interpreter>
+  </component>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="$USER_HOME$/.pyenv/versions/3.5.2/bin/python" value="false" />
+        <entry key="$USER_HOME$/.pyenv/versions/3.6.1/bin/python" value="false" />
+        <entry key="$USER_HOME$/.pyenv/versions/3.6.2/bin/python" value="true" />
+        <entry key="$USER_HOME$/.pyenv/versions/3.6.5/bin/python" value="true" />
+        <entry key="$USER_HOME$/.pyenv/versions/3.6.5/envs/mportal_task/bin/python" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="RefactoringSettings">
+    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
+  </component>
+</application>
