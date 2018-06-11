@@ -5,6 +5,7 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
+  <action id="ChangesView.AddUnversioned" />
   <action id="ChangesView.Diff" />
   <action id="ChangesView.UnshelveSilently" />
   <action id="CheckinFiles">
@@ -60,6 +61,10 @@
   </action>
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
+  </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
+    <keyboard-shortcut first-keystroke="ctrl alt a" />
   </action>
   <action id="Graph.Faces.OpenSelectedPages" />
   <action id="InspectCode">
