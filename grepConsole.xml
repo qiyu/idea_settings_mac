@@ -10,8 +10,7 @@
                 <option name="grepExpressionItems">
                   <list>
                     <GrepExpressionItem>
-                      <option name="grepExpression" value=".*:FATAL:.*" />
-                      <option name="id" value="8ec42d96-f313-4a84-912c-f1aaa8610573" />
+                      <option name="grepExpression" value=".*FATAL.*" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -21,19 +20,11 @@
                             </GrepColor>
                           </option>
                           <option name="bold" value="true" />
-                          <option name="foregroundColor">
-                            <GrepColor>
-                              <option name="color" value="-1" />
-                              <option name="enabled" value="true" />
-                            </GrepColor>
-                          </option>
-                          <option name="id" value="a700801d-b1bf-4edf-9a18-ad045c7b777f" />
                         </GrepStyle>
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
-                      <option name="grepExpression" value=".*:ERROR:.*" />
-                      <option name="id" value="35fb60b8-3a33-43be-926b-62f84076bcab" />
+                      <option name="grepExpression" value=".*ERROR.*" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -42,13 +33,11 @@
                               <option name="enabled" value="true" />
                             </GrepColor>
                           </option>
-                          <option name="id" value="97926398-2a0a-4fdb-87ad-19d7e8b22b5f" />
                         </GrepStyle>
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
-                      <option name="grepExpression" value=".*:WARNING:.*" />
-                      <option name="id" value="5d90a892-3ea7-407a-add0-d94b3705e209" />
+                      <option name="grepExpression" value=".*WARN.*" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -57,13 +46,15 @@
                               <option name="enabled" value="true" />
                             </GrepColor>
                           </option>
-                          <option name="id" value="ca4740b5-3bd8-495f-a5ea-a85455f115d4" />
                         </GrepStyle>
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
-                      <option name="grepExpression" value=".*:DEBUG:.*" />
-                      <option name="id" value="946ef056-a382-48ad-8515-5db7f210866b" />
+                      <option name="enabled" value="false" />
+                      <option name="grepExpression" value=".*INFO.*" />
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="grepExpression" value=".*DEBUG.*" />
                       <option name="style">
                         <GrepStyle>
                           <option name="foregroundColor">
@@ -72,13 +63,11 @@
                               <option name="enabled" value="true" />
                             </GrepColor>
                           </option>
-                          <option name="id" value="bbfc9396-984b-4f87-9e37-737ec594f92a" />
                         </GrepStyle>
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
-                      <option name="grepExpression" value=".*:TRACE:.*" />
-                      <option name="id" value="ef20558f-2446-4edd-a71c-fecf03fa3cca" />
+                      <option name="grepExpression" value=".*TRACE.*" />
                       <option name="style">
                         <GrepStyle>
                           <option name="foregroundColor">
@@ -87,7 +76,6 @@
                               <option name="enabled" value="true" />
                             </GrepColor>
                           </option>
-                          <option name="id" value="d8da84a1-cb51-4bd3-836c-4b8c61740de5" />
                         </GrepStyle>
                       </option>
                     </GrepExpressionItem>
@@ -97,7 +85,33 @@
               </GrepExpressionGroup>
             </list>
           </option>
-          <option name="id" value="1502981761367" />
+          <option name="id" value="1528770485792" />
+          <option name="inputFilterGroups">
+            <list>
+              <GrepExpressionGroup>
+                <option name="grepExpressionItems">
+                  <list>
+                    <GrepExpressionItem>
+                      <option name="action" value="externalScriptReference" />
+                      <option name="enabled" value="false" />
+                      <option name="grepExpression" value=".*" />
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="action" value="REMOVE" />
+                      <option name="enabled" value="false" />
+                      <option name="grepExpression" value=".*unwanted line.*" />
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="action" value="REMOVE_UNLESS_PREVIOUSLY_MATCHED" />
+                      <option name="enabled" value="false" />
+                      <option name="grepExpression" value=".*unwanted line.*" />
+                    </GrepExpressionItem>
+                  </list>
+                </option>
+                <option name="name" value="default" />
+              </GrepExpressionGroup>
+            </list>
+          </option>
           <option name="name" value="default" />
         </Profile>
       </list>
