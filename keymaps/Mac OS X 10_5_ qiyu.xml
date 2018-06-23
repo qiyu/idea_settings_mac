@@ -28,7 +28,6 @@
   <action id="DatabaseView.CopyDdlAction" />
   <action id="DatabaseView.ShowDiff" />
   <action id="Debug">
-    <keyboard-shortcut first-keystroke="f6" />
     <keyboard-shortcut first-keystroke="shift f5" />
   </action>
   <action id="Diagram.DeselectAll" />
@@ -86,6 +85,10 @@
   <action id="PreviousOccurence" />
   <action id="PublishGroup.Upload">
     <keyboard-shortcut first-keystroke="meta alt u" />
+  </action>
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+    <keyboard-shortcut first-keystroke="f6" />
   </action>
   <action id="RemoteHost.NewRemoteItem">
     <keyboard-shortcut first-keystroke="ctrl enter" />
