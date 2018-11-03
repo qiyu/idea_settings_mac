@@ -2,7 +2,8 @@
   <component name="RemoteServers">
     <remote-server name="lean1" type="docker">
       <configuration>
-        <option name="apiUrl" value="http://l-lean1.cm.dev.cn0.qunar.com:2375" />
+        <option name="apiUrl" value="https://l-lean1.cm.dev.cn0.qunar.com:2376" />
+        <option name="certificatesPath" value="$USER_HOME$/docker_pem" />
       </configuration>
     </remote-server>
     <remote-server name="Docker" type="docker">
