@@ -2,4 +2,7 @@
   <JavaCodeStyleSettings>
     <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="50" />
   </JavaCodeStyleSettings>
+  <MarkdownNavigatorCodeStyleSettings>
+    <option name="RIGHT_MARGIN" value="72" />
+  </MarkdownNavigatorCodeStyleSettings>
 </code_scheme>
