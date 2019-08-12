@@ -55,6 +55,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt u" />
   </action>
   <action id="FindUsagesInFile" />
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="meta alt f" />
+  </action>
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="meta alt d" />
   </action>
@@ -72,6 +75,8 @@
   <action id="GuiDesigner.Duplicate" />
   <action id="Images.ShowThumbnails" />
   <action id="IntroduceConstant" />
+  <action id="IntroduceField" />
+  <action id="IntroduceProperty" />
   <action id="Maven.Reimport">
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
