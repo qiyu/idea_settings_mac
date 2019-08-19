@@ -79,7 +79,7 @@
   <action id="IntroduceField" />
   <action id="IntroduceProperty" />
   <action id="Maven.Reimport">
-    <keyboard-shortcut first-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="meta alt r" />
   </action>
   <action id="Move" />
   <action id="MoveLineDown">
@@ -97,9 +97,11 @@
   </action>
   <action id="PreviousOccurence" />
   <action id="Refresh" />
-  <action id="Replace" />
   <action id="Rerun">
     <keyboard-shortcut first-keystroke="ctrl f5" />
+  </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f9" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="f5" />
