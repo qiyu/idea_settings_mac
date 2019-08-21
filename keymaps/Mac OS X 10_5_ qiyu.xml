@@ -108,6 +108,7 @@
   </action>
   <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="ShowProjectStructureSettings" />
   <action id="ShowUmlDiagramPopup" />
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="meta alt t" />
