@@ -136,6 +136,7 @@
     <keyboard-shortcut first-keystroke="shift meta u" />
     <keyboard-shortcut first-keystroke="meta alt u" />
   </action>
+  <action id="Vcs.RollbackChangedLines" />
   <action id="codeNavigator.uml.diagramRefresh" />
   <action id="openAssertEqualsDiff" />
 </keymap>
