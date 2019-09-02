@@ -131,6 +131,10 @@
   </action>
   <action id="TagDocumentationNavigation" />
   <action id="Uml.ShowDiff" />
+  <action id="UpdateRunningApplication">
+    <keyboard-shortcut first-keystroke="meta f10" />
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift meta u" />
