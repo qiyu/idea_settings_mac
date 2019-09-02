@@ -79,7 +79,7 @@
   <action id="IntroduceField" />
   <action id="IntroduceProperty" />
   <action id="Maven.Reimport">
-    <keyboard-shortcut first-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="meta alt r" />
   </action>
   <action id="Move" />
   <action id="MoveLineDown">
@@ -97,15 +97,18 @@
   </action>
   <action id="PreviousOccurence" />
   <action id="Refresh" />
-  <action id="Replace" />
   <action id="Rerun">
     <keyboard-shortcut first-keystroke="ctrl f5" />
+  </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f9" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="ShowProjectStructureSettings" />
   <action id="ShowUmlDiagramPopup" />
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="meta alt t" />
@@ -128,11 +131,16 @@
   </action>
   <action id="TagDocumentationNavigation" />
   <action id="Uml.ShowDiff" />
+  <action id="UpdateRunningApplication">
+    <keyboard-shortcut first-keystroke="meta f10" />
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift meta u" />
     <keyboard-shortcut first-keystroke="meta alt u" />
   </action>
+  <action id="Vcs.RollbackChangedLines" />
   <action id="codeNavigator.uml.diagramRefresh" />
   <action id="openAssertEqualsDiff" />
 </keymap>
