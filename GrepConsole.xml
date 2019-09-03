@@ -127,7 +127,22 @@
                           <option name="backgroundColor">
                             <GrepColor>
                               <option name="color" value="-16711681" />
-                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="continueMatching" value="true" />
+                      <option name="fold" value="true" />
+                      <option name="grepExpression" value=".*org.apache.velocity.runtime.log.CommonsLogLogChute.*" />
+                      <option name="highlightOnlyMatchingText" value="true" />
+                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-16711681" />
                             </GrepColor>
                           </option>
                         </GrepStyle>
