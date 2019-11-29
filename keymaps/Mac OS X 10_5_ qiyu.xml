@@ -21,6 +21,10 @@
   <action id="CompareDirs" />
   <action id="CompareJars" />
   <action id="CompareTwoFiles" />
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="meta f9" />
+    <keyboard-shortcut first-keystroke="shift f9" />
+  </action>
   <action id="Console.TableResult.CloneRow">
     <keyboard-shortcut first-keystroke="ctrl meta down" />
   </action>
@@ -110,6 +114,12 @@
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowProjectStructureSettings" />
   <action id="ShowUmlDiagramPopup" />
+  <action id="StringManipulation.SwitchStyleAction">
+    <keyboard-shortcut first-keystroke="meta alt 0" />
+  </action>
+  <action id="StringManipulation.ToSnakeCaseOrCamelCase">
+    <keyboard-shortcut first-keystroke="meta alt 1" />
+  </action>
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="meta alt t" />
     <keyboard-shortcut first-keystroke="shift meta t" />
