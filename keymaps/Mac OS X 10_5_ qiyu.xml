@@ -151,6 +151,12 @@
     <keyboard-shortcut first-keystroke="meta alt u" />
   </action>
   <action id="Vcs.RollbackChangedLines" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
+  </action>
   <action id="codeNavigator.uml.diagramRefresh" />
   <action id="openAssertEqualsDiff" />
 </keymap>
