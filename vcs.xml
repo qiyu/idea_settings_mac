@@ -6,6 +6,10 @@
           <option name="url" value="http://git.souche-inc.com" />
           <option name="userName" value="qiyu" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.sinacloud.com" />
+          <option name="userName" value="2570845188@qq.com" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
