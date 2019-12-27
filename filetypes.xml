@@ -4,6 +4,7 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping pattern="a" type="PLAIN_TEXT" />
       <mapping pattern="beans" type="PLAIN_TEXT" />
+      <mapping pattern="qoptimus" type="PLAIN_TEXT" />
       <mapping pattern="1" type="PLAIN_TEXT" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern="aaa" type="PLAIN_TEXT" />
