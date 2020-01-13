@@ -1,0 +1,13 @@
+<templateSet group="other">
+  <template name="dfa" value="@Data&#10;@FieldDefaults(level = AccessLevel.PRIVATE)&#10;@Accessors(chain = true)" description="@Data @FieldDefaults @Accessors" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="false" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+</templateSet>
