@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="Directory '.../finance-car-admin/src/main/java/com/souche/finance/car/admin [finance-car-admin]'" />
+    <option name="defaultScopeName" value="Directory '.../finance-car-admin/src/main/java/com/souche/finance/car/admin [finance-car-admin]'" />
+    <option name="SEARCH_SCOPE" value="Directory '.../finance-car-admin/src/main/java/com/souche/finance/car/admin [finance-car-admin]'" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
