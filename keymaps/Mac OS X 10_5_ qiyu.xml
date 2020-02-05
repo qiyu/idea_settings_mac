@@ -110,6 +110,10 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
+  <action id="Scala.ShowImplicits">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
+  </action>
   <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowProjectStructureSettings" />
@@ -159,4 +163,7 @@
   </action>
   <action id="codeNavigator.uml.diagramRefresh" />
   <action id="openAssertEqualsDiff" />
+  <action id="osmedile.intellij.stringmanip.WordsAndCamelToConstantStyleCaseAction">
+    <keyboard-shortcut first-keystroke="meta alt 2" />
+  </action>
 </keymap>

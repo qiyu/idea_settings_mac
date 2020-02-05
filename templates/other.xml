@@ -1,0 +1,7 @@
+<templateSet group="other">
+  <template name="dfa" value="@Data&#10;@FieldDefaults(level = AccessLevel.PRIVATE)&#10;@Accessors(chain = true)&#10;" description="@Data @FieldDefaults @Accessors" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
