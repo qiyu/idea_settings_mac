@@ -4,7 +4,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="gfa" value="@Getter&#10;@FieldDefaults(level = AccessLevel.PRIVATE)&#10;@AllArgsConstructor" toReformat="false" toShortenFQNames="true">
+  <template name="gfa" value="@Getter&#10;@FieldDefaults(level = AccessLevel.PRIVATE)&#10;@AllArgsConstructor" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
