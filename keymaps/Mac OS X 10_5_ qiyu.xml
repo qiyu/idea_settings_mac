@@ -2,10 +2,7 @@
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="meta alt b" />
   </action>
-  <action id="ChangesView.AddUnversioned">
-    <keyboard-shortcut first-keystroke="shift meta a" />
-    <keyboard-shortcut first-keystroke="meta alt a" />
-  </action>
+  <action id="ChangesView.AddUnversioned" />
   <action id="ChangesView.Commit">
     <keyboard-shortcut first-keystroke="meta alt c" />
   </action>
