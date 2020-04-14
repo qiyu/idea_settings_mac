@@ -73,6 +73,10 @@
   <action id="Diff.ShowSettingsPopup" />
   <action id="Diff.UpdatedFiles" />
   <action id="DuplicatesForm.SendToRight" />
+  <action id="EditBreakpoint">
+    <keyboard-shortcut first-keystroke="shift meta f8" />
+    <keyboard-shortcut first-keystroke="meta alt f8" />
+  </action>
   <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorDuplicate" />
@@ -131,6 +135,9 @@
     <keyboard-shortcut first-keystroke="meta o" />
   </action>
   <action id="PreviousOccurence" />
+  <action id="QuickEvaluateExpression">
+    <mouse-shortcut keystroke="alt button1" />
+  </action>
   <action id="Refresh" />
   <action id="Rerun">
     <keyboard-shortcut first-keystroke="ctrl f5" />
