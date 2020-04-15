@@ -27,12 +27,20 @@
     <keyboard-shortcut first-keystroke="shift meta 9" />
     <keyboard-shortcut first-keystroke="meta 5" />
   </action>
+  <action id="AddToFavorites">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="meta alt b" />
   </action>
+  <action id="Arrangement.Alias.Rule.Edit" />
+  <action id="Arrangement.Rule.Edit" />
   <action id="ChangesView.AddUnversioned" />
   <action id="ChangesView.Commit">
     <keyboard-shortcut first-keystroke="meta alt c" />
+  </action>
+  <action id="ChangesView.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="ChangesView.ShelveSilently" />
   <action id="ChangesView.UnshelveSilently" />
@@ -54,6 +62,10 @@
     <keyboard-shortcut first-keystroke="ctrl meta down" />
   </action>
   <action id="Console.TableResult.CompareCells" />
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.PreviousPage" />
   <action id="Console.TableResult.Reload" />
@@ -68,6 +80,8 @@
     <keyboard-shortcut first-keystroke="f6" />
     <keyboard-shortcut first-keystroke="shift f5" />
   </action>
+  <action id="Debugger.EditArrayFilter" />
+  <action id="Debugger.EditCustomField" />
   <action id="Diagram.DeselectAll" />
   <action id="Diff.SelectedChange" />
   <action id="Diff.ShowSettingsPopup" />
@@ -99,6 +113,9 @@
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="meta alt d" />
   </action>
+  <action id="Git.Reword.Commit">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="GotoAction" />
   <action id="GotoChangedFile" />
   <action id="GotoClass">
@@ -108,6 +125,7 @@
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="meta alt button1" />
   </action>
+  <action id="GotoNextError" />
   <action id="GotoSymbol" />
   <action id="GotoTest" />
   <action id="Graph.ApplyCurrentLayout" />
@@ -154,6 +172,9 @@
   </action>
   <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="ShowProjectStructureSettings" />
   <action id="ShowUmlDiagramPopup" />
   <action id="StringManipulation.SwitchStyleAction">
@@ -201,6 +222,8 @@
   <action id="WelcomeScreen.OpenSelected">
     <keyboard-shortcut first-keystroke="meta alt 1" />
   </action>
+  <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.SetValue" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
