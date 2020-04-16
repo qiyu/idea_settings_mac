@@ -180,6 +180,9 @@
   <action id="StringManipulation.SwitchStyleAction">
     <keyboard-shortcut first-keystroke="meta alt 0" />
   </action>
+  <action id="StringManipulation.ToSnakeCaseOrCamelCase">
+    <keyboard-shortcut first-keystroke="meta alt 1" />
+  </action>
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="meta alt t" />
     <keyboard-shortcut first-keystroke="shift meta t" />
@@ -219,9 +222,6 @@
     <keyboard-shortcut first-keystroke="meta alt u" />
   </action>
   <action id="Vcs.RollbackChangedLines" />
-  <action id="WelcomeScreen.OpenSelected">
-    <keyboard-shortcut first-keystroke="meta alt 1" />
-  </action>
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
   <action id="android.deploy.ApplyChanges">
