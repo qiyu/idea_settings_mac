@@ -1,20 +1,17 @@
 <keymap version="1" name="Mac OS X 10.5+ qiyu" parent="Mac OS X 10.5+">
-  <action id="ActivateDebugToolWindow">
-    <keyboard-shortcut first-keystroke="meta 8" />
-  </action>
-  <action id="ActivateFavoritesToolWindow">
-    <keyboard-shortcut first-keystroke="meta 7" />
-    <keyboard-shortcut first-keystroke="meta 3" />
-  </action>
+  <action id="ActivateDebugToolWindow" />
+  <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow" />
   <action id="ActivateMavenToolWindow">
-    <keyboard-shortcut first-keystroke="meta 9" />
+    <keyboard-shortcut first-keystroke="meta 6" />
   </action>
   <action id="ActivateRunToolWindow" />
   <action id="ActivateServicesToolWindow">
-    <keyboard-shortcut first-keystroke="meta 5" />
+    <keyboard-shortcut first-keystroke="meta 8" />
+    <keyboard-shortcut first-keystroke="meta 4" />
   </action>
   <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="meta 7" />
     <keyboard-shortcut first-keystroke="f11" />
     <keyboard-shortcut first-keystroke="meta 2" />
   </action>
@@ -22,26 +19,19 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="f12" />
-    <keyboard-shortcut first-keystroke="meta 4" />
+    <keyboard-shortcut first-keystroke="meta 3" />
   </action>
   <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="meta 9" />
     <keyboard-shortcut first-keystroke="shift meta 9" />
-    <keyboard-shortcut first-keystroke="meta 6" />
-  </action>
-  <action id="AddToFavorites">
-    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="meta 5" />
   </action>
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="meta alt b" />
   </action>
-  <action id="Arrangement.Alias.Rule.Edit" />
-  <action id="Arrangement.Rule.Edit" />
   <action id="ChangesView.AddUnversioned" />
   <action id="ChangesView.Commit">
     <keyboard-shortcut first-keystroke="meta alt c" />
-  </action>
-  <action id="ChangesView.Rename">
-    <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="ChangesView.ShelveSilently" />
   <action id="ChangesView.UnshelveSilently" />
@@ -63,10 +53,6 @@
     <keyboard-shortcut first-keystroke="ctrl meta down" />
   </action>
   <action id="Console.TableResult.CompareCells" />
-  <action id="Console.TableResult.EditValue">
-    <keyboard-shortcut first-keystroke="enter" />
-    <keyboard-shortcut first-keystroke="alt enter" />
-  </action>
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.PreviousPage" />
   <action id="Console.TableResult.Reload" />
@@ -81,17 +67,11 @@
     <keyboard-shortcut first-keystroke="f6" />
     <keyboard-shortcut first-keystroke="shift f5" />
   </action>
-  <action id="Debugger.EditArrayFilter" />
-  <action id="Debugger.EditCustomField" />
   <action id="Diagram.DeselectAll" />
   <action id="Diff.SelectedChange" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="Diff.UpdatedFiles" />
   <action id="DuplicatesForm.SendToRight" />
-  <action id="EditBreakpoint">
-    <keyboard-shortcut first-keystroke="shift meta f8" />
-    <keyboard-shortcut first-keystroke="meta alt f8" />
-  </action>
   <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorDuplicate" />
@@ -114,9 +94,6 @@
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="meta alt d" />
   </action>
-  <action id="Git.Reword.Commit">
-    <keyboard-shortcut first-keystroke="shift f6" />
-  </action>
   <action id="GotoAction" />
   <action id="GotoChangedFile" />
   <action id="GotoClass">
@@ -126,7 +103,6 @@
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="meta alt button1" />
   </action>
-  <action id="GotoNextError" />
   <action id="GotoSymbol" />
   <action id="GotoTest" />
   <action id="Graph.ApplyCurrentLayout" />
@@ -154,9 +130,6 @@
     <keyboard-shortcut first-keystroke="meta o" />
   </action>
   <action id="PreviousOccurence" />
-  <action id="QuickEvaluateExpression">
-    <mouse-shortcut keystroke="alt button1" />
-  </action>
   <action id="Refresh" />
   <action id="Rerun">
     <keyboard-shortcut first-keystroke="ctrl f5" />
@@ -173,16 +146,10 @@
   </action>
   <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
-  <action id="ShelvedChanges.Rename">
-    <keyboard-shortcut first-keystroke="shift f6" />
-  </action>
   <action id="ShowProjectStructureSettings" />
   <action id="ShowUmlDiagramPopup" />
   <action id="StringManipulation.SwitchStyleAction">
     <keyboard-shortcut first-keystroke="meta alt 0" />
-  </action>
-  <action id="StringManipulation.ToSnakeCaseOrCamelCase">
-    <keyboard-shortcut first-keystroke="meta alt 1" />
   </action>
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="meta alt t" />
@@ -223,8 +190,9 @@
     <keyboard-shortcut first-keystroke="meta alt u" />
   </action>
   <action id="Vcs.RollbackChangedLines" />
-  <action id="XDebugger.EditWatch" />
-  <action id="XDebugger.SetValue" />
+  <action id="WelcomeScreen.OpenSelected">
+    <keyboard-shortcut first-keystroke="meta alt 1" />
+  </action>
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
