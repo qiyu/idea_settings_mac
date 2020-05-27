@@ -200,6 +200,9 @@
   <action id="TerminalSplitActionBase$Vertical">
     <keyboard-shortcut first-keystroke="meta alt v" />
   </action>
+  <action id="ToggleZenMode">
+    <keyboard-shortcut first-keystroke="ctrl meta alt o" />
+  </action>
   <action id="Uml.ShowDiff" />
   <action id="UpdateRunningApplication">
     <keyboard-shortcut first-keystroke="meta f10" />
