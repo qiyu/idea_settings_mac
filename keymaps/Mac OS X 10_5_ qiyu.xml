@@ -131,16 +131,13 @@
   </action>
   <action id="NextOccurence" />
   <action id="NextTab">
-    <keyboard-shortcut first-keystroke="ctrl right" />
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
   </action>
   <action id="OverrideMethods">
     <keyboard-shortcut first-keystroke="ctrl o" />
     <keyboard-shortcut first-keystroke="meta o" />
   </action>
   <action id="PreviousOccurence" />
-  <action id="PreviousTab">
-    <keyboard-shortcut first-keystroke="ctrl left" />
-  </action>
   <action id="Refresh" />
   <action id="Rerun">
     <keyboard-shortcut first-keystroke="ctrl f5" />
@@ -182,16 +179,8 @@
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
   <action id="TagDocumentationNavigation" />
-  <action id="Terminal.MoveToolWindowTabLeft">
-    <keyboard-shortcut first-keystroke="shift meta alt left" />
-    <keyboard-shortcut first-keystroke="meta alt open_bracket" />
-    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
-  </action>
-  <action id="Terminal.MoveToolWindowTabRight">
-    <keyboard-shortcut first-keystroke="shift meta alt right" />
-    <keyboard-shortcut first-keystroke="meta alt close_bracket" />
-    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
-  </action>
+  <action id="Terminal.MoveToolWindowTabLeft" />
+  <action id="Terminal.MoveToolWindowTabRight" />
   <action id="TerminalSplitActionBase$Horizontal">
     <keyboard-shortcut first-keystroke="meta alt h" />
   </action>
