@@ -4,14 +4,19 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="gfa" value="@Getter&#10;@FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)&#10;@AllArgsConstructor" description="" toReformat="false" toShortenFQNames="true">
+  <template name="gfa" value="@Getter&#10;@FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)&#10;@AllArgsConstructor" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="ts" value="@Transactional(rollbackFor = Exception.class)" description="事务注解" toReformat="false" toShortenFQNames="true">
+  <template name="ts" value="@Transactional(rollbackFor = Exception.class)" description="事务注解" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="json" value="JSON.toJSONString($END$);" description="转化成json字符串" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
