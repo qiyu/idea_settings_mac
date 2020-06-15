@@ -89,6 +89,9 @@
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
+  <action id="FileChooser.LightEditGotoOpenedFile">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="ctrl alt u" />
   </action>
@@ -156,10 +159,6 @@
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
-  </action>
-  <action id="SelectIn">
-    <keyboard-shortcut first-keystroke="alt f1" />
-    <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
