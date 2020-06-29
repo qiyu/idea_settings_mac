@@ -20,7 +20,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="exc" value="throw Exceptions.fail(ErrorMessage.errorMessage(ERROR_CODE, ));" description="抛出异常" toReformat="false" toShortenFQNames="true">
+  <template name="exc" value="throw Exceptions.fail(PARAM_VALIDATION_ERR, ));" description="抛出异常" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
