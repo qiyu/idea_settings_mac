@@ -1,17 +1,16 @@
 <keymap version="1" name="Mac OS X 10.5+ qiyu" parent="Mac OS X 10.5+">
-  <action id="ActivateDebugToolWindow" />
-  <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="meta 7" />
+  </action>
+  <action id="ActivateFavoritesToolWindow">
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
   <action id="ActivateFindToolWindow" />
   <action id="ActivateMavenToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
   </action>
   <action id="ActivateRunToolWindow" />
-  <action id="ActivateServicesToolWindow">
-    <keyboard-shortcut first-keystroke="meta 8" />
-    <keyboard-shortcut first-keystroke="meta 4" />
-  </action>
   <action id="ActivateStructureToolWindow">
-    <keyboard-shortcut first-keystroke="meta 7" />
     <keyboard-shortcut first-keystroke="f11" />
     <keyboard-shortcut first-keystroke="meta 2" />
   </action>
@@ -19,7 +18,7 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="f12" />
-    <keyboard-shortcut first-keystroke="meta 3" />
+    <keyboard-shortcut first-keystroke="meta 4" />
   </action>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="meta 9" />
@@ -90,6 +89,9 @@
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
+  <action id="FileChooser.LightEditGotoOpenedFile">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="ctrl alt u" />
   </action>
@@ -133,15 +135,16 @@
   </action>
   <action id="NextOccurence" />
   <action id="NextTab">
-    <keyboard-shortcut first-keystroke="ctrl right" />
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
   </action>
   <action id="OverrideMethods">
     <keyboard-shortcut first-keystroke="ctrl o" />
     <keyboard-shortcut first-keystroke="meta o" />
   </action>
   <action id="PreviousOccurence" />
-  <action id="PreviousTab">
-    <keyboard-shortcut first-keystroke="ctrl left" />
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="ctrl j" />
+    <mouse-shortcut keystroke="control button2" />
   </action>
   <action id="Refresh" />
   <action id="Rerun">
@@ -164,6 +167,9 @@
   <action id="StringManipulation.SwitchStyleAction">
     <keyboard-shortcut first-keystroke="meta alt 0" />
   </action>
+  <action id="StringManipulation.ToSnakeCaseOrCamelCase">
+    <keyboard-shortcut first-keystroke="meta alt 3" />
+  </action>
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="meta alt t" />
     <keyboard-shortcut first-keystroke="shift meta t" />
@@ -184,16 +190,8 @@
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
   <action id="TagDocumentationNavigation" />
-  <action id="Terminal.MoveToolWindowTabLeft">
-    <keyboard-shortcut first-keystroke="shift meta alt left" />
-    <keyboard-shortcut first-keystroke="meta alt open_bracket" />
-    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
-  </action>
-  <action id="Terminal.MoveToolWindowTabRight">
-    <keyboard-shortcut first-keystroke="shift meta alt right" />
-    <keyboard-shortcut first-keystroke="meta alt close_bracket" />
-    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
-  </action>
+  <action id="Terminal.MoveToolWindowTabLeft" />
+  <action id="Terminal.MoveToolWindowTabRight" />
   <action id="TerminalSplitActionBase$Horizontal">
     <keyboard-shortcut first-keystroke="meta alt h" />
   </action>
