@@ -1,4 +1,7 @@
 <keymap version="1" name="Mac OS X 10.5+ qiyu" parent="Mac OS X 10.5+">
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="meta 9" />
+  </action>
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="meta 7" />
   </action>
@@ -21,7 +24,6 @@
     <keyboard-shortcut first-keystroke="meta 4" />
   </action>
   <action id="ActivateVersionControlToolWindow">
-    <keyboard-shortcut first-keystroke="meta 9" />
     <keyboard-shortcut first-keystroke="shift meta 9" />
     <keyboard-shortcut first-keystroke="meta 5" />
   </action>
