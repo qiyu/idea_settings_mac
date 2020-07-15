@@ -121,7 +121,9 @@
   <action id="IntroduceConstant" />
   <action id="IntroduceField" />
   <action id="IntroduceProperty" />
-  <action id="IntroduceVariable" />
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="meta alt comma" />
+  </action>
   <action id="JumpToLastWindow" />
   <action id="Maven.Reimport">
     <keyboard-shortcut first-keystroke="meta alt r" />
