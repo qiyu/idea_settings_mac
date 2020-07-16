@@ -1,0 +1,10 @@
+<application>
+  <component name="PostfixTemplates">
+    <template id="json@userDefined" key=".json" provider="builtin.java" language-level="8" topmost="true">
+      <conditions>
+        <condition id="non void" />
+      </conditions>
+      <template name="fakeKey" value="JSON.toJSONString($EXPR$);$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
+  </component>
+</application>
