@@ -168,6 +168,12 @@
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowProjectStructureSettings" />
   <action id="ShowUmlDiagramPopup" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="meta alt h" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="meta alt v" />
+  </action>
   <action id="StringManipulation.SwitchStyleAction">
     <keyboard-shortcut first-keystroke="meta alt 0" />
   </action>
@@ -196,12 +202,6 @@
   <action id="TagDocumentationNavigation" />
   <action id="Terminal.MoveToolWindowTabLeft" />
   <action id="Terminal.MoveToolWindowTabRight" />
-  <action id="TerminalSplitActionBase$Horizontal">
-    <keyboard-shortcut first-keystroke="meta alt h" />
-  </action>
-  <action id="TerminalSplitActionBase$Vertical">
-    <keyboard-shortcut first-keystroke="meta alt v" />
-  </action>
   <action id="ToggleZenMode">
     <keyboard-shortcut first-keystroke="ctrl meta alt o" />
   </action>
