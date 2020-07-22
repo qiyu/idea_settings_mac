@@ -1,16 +1,22 @@
 <application>
   <component name="PostfixTemplates">
+    <template id="empty@userDefined" key=".empty" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.String" />
+      </conditions>
+      <template name="fakeKey" value="StringUtils.isEmpty($EXPR$)$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="eq@userDefined" key=".equal" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="non void" />
+      </conditions>
+      <template name="fakeKey" value="Objects.equals($EXPR$, $END$)" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="json@userDefined" key=".json" provider="builtin.java" language-level="8" topmost="true">
       <conditions>
         <condition id="non void" />
       </conditions>
       <template name="fakeKey" value="JSON.toJSONString($EXPR$);$END$" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="eq@userDefined" key=".eq" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions>
-        <condition id="non void" />
-      </conditions>
-      <template name="fakeKey" value="Objects.equals($EXPR$, $END$)" toReformat="true" toShortenFQNames="true" />
     </template>
   </component>
 </application>
