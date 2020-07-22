@@ -85,9 +85,7 @@
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
-  <action id="EditorToggleCase">
-    <keyboard-shortcut first-keystroke="meta i" />
-  </action>
+  <action id="EditorToggleCase" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
@@ -112,6 +110,7 @@
   </action>
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="meta alt button1" />
+    <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="GotoSymbol" />
   <action id="GotoTest" />
@@ -123,6 +122,7 @@
   <action id="IntroduceProperty" />
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="meta alt comma" />
+    <keyboard-shortcut first-keystroke="meta alt 0" />
   </action>
   <action id="JumpToLastWindow" />
   <action id="Maven.Reimport">
@@ -168,8 +168,14 @@
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowProjectStructureSettings" />
   <action id="ShowUmlDiagramPopup" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="meta alt h" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="meta alt v" />
+  </action>
   <action id="StringManipulation.SwitchStyleAction">
-    <keyboard-shortcut first-keystroke="meta alt 0" />
+    <keyboard-shortcut first-keystroke="meta alt 1" />
   </action>
   <action id="StringManipulation.ToSnakeCaseOrCamelCase">
     <keyboard-shortcut first-keystroke="meta alt 3" />
@@ -196,12 +202,6 @@
   <action id="TagDocumentationNavigation" />
   <action id="Terminal.MoveToolWindowTabLeft" />
   <action id="Terminal.MoveToolWindowTabRight" />
-  <action id="TerminalSplitActionBase$Horizontal">
-    <keyboard-shortcut first-keystroke="meta alt h" />
-  </action>
-  <action id="TerminalSplitActionBase$Vertical">
-    <keyboard-shortcut first-keystroke="meta alt v" />
-  </action>
   <action id="ToggleZenMode">
     <keyboard-shortcut first-keystroke="ctrl meta alt o" />
   </action>
@@ -216,9 +216,6 @@
     <keyboard-shortcut first-keystroke="meta alt u" />
   </action>
   <action id="Vcs.RollbackChangedLines" />
-  <action id="WelcomeScreen.OpenSelected">
-    <keyboard-shortcut first-keystroke="meta alt 1" />
-  </action>
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
