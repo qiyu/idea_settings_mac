@@ -12,6 +12,9 @@
   <action id="ActivateMavenToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
   </action>
+  <action id="ActivateProblemsToolWindow">
+    <keyboard-shortcut first-keystroke="meta 0" />
+  </action>
   <action id="ActivateRunToolWindow" />
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="f11" />
@@ -116,6 +119,10 @@
   <action id="GotoTest" />
   <action id="Graph.ApplyCurrentLayout" />
   <action id="GuiDesigner.Duplicate" />
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="shift meta f12" />
+    <keyboard-shortcut first-keystroke="meta f11" />
+  </action>
   <action id="Images.ShowThumbnails" />
   <action id="IntroduceConstant" />
   <action id="IntroduceField" />
