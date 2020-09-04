@@ -37,14 +37,23 @@
   <action id="ChangesView.Commit">
     <keyboard-shortcut first-keystroke="meta alt c" />
   </action>
+  <action id="ChangesView.SetDefault" />
   <action id="ChangesView.ShelveSilently" />
   <action id="ChangesView.UnshelveSilently" />
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="shift meta c" />
     <keyboard-shortcut first-keystroke="meta alt c" />
   </action>
+  <action id="ClassNameCompletion" />
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="ctrl meta space" />
+  </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="meta alt slash" />
+    <keyboard-shortcut first-keystroke="meta alt divide" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
   </action>
   <action id="CompareDirs" />
   <action id="CompareJars" />
@@ -161,6 +170,7 @@
   <action id="Rerun">
     <keyboard-shortcut first-keystroke="ctrl f5" />
   </action>
+  <action id="RestoreDefaultLayout" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f9" />
   </action>
@@ -183,6 +193,12 @@
   </action>
   <action id="StringManipulation.SwitchStyleAction">
     <keyboard-shortcut first-keystroke="meta alt 1" />
+  </action>
+  <action id="StringManipulation.SwitchStyleAction.Reverse">
+    <keyboard-shortcut first-keystroke="meta alt 2" />
+  </action>
+  <action id="StringManipulation.ToHyphenCaseOrCamelCase">
+    <keyboard-shortcut first-keystroke="meta alt 4" />
   </action>
   <action id="StringManipulation.ToSnakeCaseOrCamelCase">
     <keyboard-shortcut first-keystroke="meta alt 3" />
@@ -231,7 +247,4 @@
   </action>
   <action id="codeNavigator.uml.diagramRefresh" />
   <action id="openAssertEqualsDiff" />
-  <action id="osmedile.intellij.stringmanip.WordsAndCamelToConstantStyleCaseAction">
-    <keyboard-shortcut first-keystroke="meta alt 2" />
-  </action>
 </keymap>
