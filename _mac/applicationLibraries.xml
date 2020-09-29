@@ -11,7 +11,6 @@
         <root url="file://$USER_HOME$/.pyenv/versions/3.5.2/lib/python3.5/plat-darwin" />
         <root url="file://$USER_HOME$/.pyenv/versions/3.5.2/lib/python3.5/lib-dynload" />
         <root url="file://$USER_HOME$/.pyenv/versions/3.5.2/lib/python3.5/site-packages" />
-        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2019.1/python_stubs/196951317" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3" />
@@ -29,7 +28,6 @@
         <root url="file://$USER_HOME$/.pyenv/versions/3.5.2/lib/python3.5/plat-darwin" />
         <root url="file://$USER_HOME$/.pyenv/versions/3.5.2/lib/python3.5/lib-dynload" />
         <root url="file://$USER_HOME$/.pyenv/versions/3.5.2/lib/python3.5/site-packages" />
-        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2019.1/python_stubs/196951317" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3" />
@@ -287,6 +285,23 @@
       <JAVADOC>
         <root url="https://www.scala-lang.org/api/2.13.1/" />
       </JAVADOC>
+      <SOURCES />
+    </library>
+    <library name="scala-sdk-2.13.3" type="Scala">
+      <properties>
+        <language-level>Scala_2_13</language-level>
+        <compiler-classpath>
+          <root url="file://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.13.3.jar" />
+          <root url="file://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.13.3.jar" />
+          <root url="file://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.3.jar" />
+        </compiler-classpath>
+      </properties>
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.13.3.jar!/" />
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.3.jar!/" />
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.13.3-sources.jar!/" />
+      </CLASSES>
+      <JAVADOC />
       <SOURCES />
     </library>
   </component>
