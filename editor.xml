@@ -1,6 +1,8 @@
 <application>
   <component name="CodeInsightSettings">
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
+    <EXCLUDED_PACKAGE NAME="com.aliyun.openservices.shade.com.alibaba.fastjson.JSON" />
+    <EXCLUDED_PACKAGE NAME="java.sql.Date" />
   </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="14" />
