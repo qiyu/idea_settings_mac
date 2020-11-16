@@ -1,8 +1,13 @@
 <application>
   <component name="CodeInsightSettings">
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
-    <EXCLUDED_PACKAGE NAME="com.aliyun.openservices.shade.com.alibaba.fastjson.JSON" />
+    <EXCLUDED_PACKAGE NAME="com.alibaba.druid.util.StringUtils" />
+    <EXCLUDED_PACKAGE NAME="com.alibaba.dubbo.common.utils.StringUtils" />
+    <EXCLUDED_PACKAGE NAME="com.aliyun.openservices.shade" />
+    <EXCLUDED_PACKAGE NAME="com.souche.shop.utils.StringUtils" />
     <EXCLUDED_PACKAGE NAME="java.sql.Date" />
+    <EXCLUDED_PACKAGE NAME="org.apache.commons.lang.StringUtils" />
+    <EXCLUDED_PACKAGE NAME="org.codehaus.plexus.util.StringUtils" />
   </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="14" />
