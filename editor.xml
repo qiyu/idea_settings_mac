@@ -4,11 +4,14 @@
     <EXCLUDED_PACKAGE NAME="com.alibaba.druid.util.StringUtils" />
     <EXCLUDED_PACKAGE NAME="com.alibaba.dubbo.common.utils.StringUtils" />
     <EXCLUDED_PACKAGE NAME="com.aliyun.openservices.shade" />
+    <EXCLUDED_PACKAGE NAME="com.souche.optimus.common.page.Page" />
     <EXCLUDED_PACKAGE NAME="com.souche.shop.utils.StringUtils" />
     <EXCLUDED_PACKAGE NAME="java.sql.Date" />
     <EXCLUDED_PACKAGE NAME="jdk" />
     <EXCLUDED_PACKAGE NAME="org.apache.commons.lang.StringUtils" />
     <EXCLUDED_PACKAGE NAME="org.codehaus.plexus.util.StringUtils" />
+    <EXCLUDED_PACKAGE NAME="org.springframework.data.domain.Page" />
+    <EXCLUDED_PACKAGE NAME="org.terracotta.offheapstore.paging.Page" />
     <EXCLUDED_PACKAGE NAME="sun" />
   </component>
   <component name="DefaultFont">
