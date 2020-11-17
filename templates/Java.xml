@@ -1,0 +1,8 @@
+<templateSet group="Java">
+  <template name="enum1" value="@Getter&#10;@FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)&#10;@AllArgsConstructor&#10;public enum $CLASS_NAME$ {&#10;&#10;    A(1, &quot;&quot;),&#10;    ;&#10;&#10;    int code;&#10;    String desc;&#10;&#10;    public static final IntEnumHelper&lt;$CLASS_NAME$&gt; HELPER = new IntEnumHelper&lt;&gt;(&#10;            $CLASS_NAME$.class,&#10;            $CLASS_NAME$::getCode,&#10;            $CLASS_NAME$::getDesc);&#10;}&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
