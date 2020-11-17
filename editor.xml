@@ -9,6 +9,7 @@
     <EXCLUDED_PACKAGE NAME="jdk" />
     <EXCLUDED_PACKAGE NAME="org.apache.commons.lang.StringUtils" />
     <EXCLUDED_PACKAGE NAME="org.codehaus.plexus.util.StringUtils" />
+    <EXCLUDED_PACKAGE NAME="sun" />
   </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="14" />
