@@ -6,6 +6,8 @@
     <EXCLUDED_PACKAGE NAME="com.aliyun.openservices.shade" />
     <EXCLUDED_PACKAGE NAME="com.souche.optimus.common.page.Page" />
     <EXCLUDED_PACKAGE NAME="com.souche.shop.utils.StringUtils" />
+    <EXCLUDED_PACKAGE NAME="com.sun" />
+    <EXCLUDED_PACKAGE NAME="io.vavr" />
     <EXCLUDED_PACKAGE NAME="java.sql.Date" />
     <EXCLUDED_PACKAGE NAME="jdk" />
     <EXCLUDED_PACKAGE NAME="org.apache.commons.lang.StringUtils" />
