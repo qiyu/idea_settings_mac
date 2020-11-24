@@ -18,6 +18,7 @@
   <action id="ActivateProblemsToolWindow">
     <keyboard-shortcut first-keystroke="meta 0" />
   </action>
+  <action id="ActivateProblemsViewToolWindow" />
   <action id="ActivateRunToolWindow" />
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="f11" />
