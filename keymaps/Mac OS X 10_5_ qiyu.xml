@@ -2,6 +2,9 @@
   <action id="ActivateCommitToolWindow">
     <keyboard-shortcut first-keystroke="meta 9" />
   </action>
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="meta 0" />
+  </action>
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="meta 7" />
   </action>
@@ -15,6 +18,7 @@
   <action id="ActivateProblemsToolWindow">
     <keyboard-shortcut first-keystroke="meta 0" />
   </action>
+  <action id="ActivateProblemsViewToolWindow" />
   <action id="ActivateRunToolWindow" />
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="f11" />
