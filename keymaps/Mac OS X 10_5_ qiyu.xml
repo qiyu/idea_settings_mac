@@ -95,13 +95,27 @@
   <action id="Diff.ShowSettingsPopup" />
   <action id="Diff.UpdatedFiles" />
   <action id="DuplicatesForm.SendToRight" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorDuplicate" />
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
+  <action id="EditorMoveToPageBottom">
+    <keyboard-shortcut first-keystroke="meta page_down" />
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="EditorMoveToPageTop">
+    <keyboard-shortcut first-keystroke="meta page_up" />
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
   <action id="EditorToggleCase" />
+  <action id="ExternalSystem.OpenConfig">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
@@ -157,9 +171,15 @@
     <keyboard-shortcut first-keystroke="shift alt up" />
     <keyboard-shortcut first-keystroke="meta alt up" />
   </action>
+  <action id="NavBar-navigate">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="NextOccurence" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+  </action>
+  <action id="OpenModuleSettings">
+    <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="OverrideMethods">
     <keyboard-shortcut first-keystroke="ctrl o" />
@@ -167,11 +187,17 @@
   </action>
   <action id="PreviousOccurence" />
   <action id="ProjectViewChangeView" />
+  <action id="ProjectViewEditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="ctrl j" />
     <mouse-shortcut keystroke="control button2" />
   </action>
   <action id="Refresh" />
+  <action id="RemoteHostView.EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="Rerun">
     <keyboard-shortcut first-keystroke="ctrl f5" />
   </action>
@@ -186,11 +212,20 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
+  <action id="SearchEverywhere.NavigateToNextGroup">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt home" />
+  </action>
   <action id="ShowProjectStructureSettings" />
   <action id="ShowUmlDiagramPopup" />
   <action id="SplitHorizontally">
@@ -198,6 +233,9 @@
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="meta alt v" />
+  </action>
+  <action id="Sql.EditParameter">
+    <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="StringManipulation.ShiftQuote">
     <keyboard-shortcut first-keystroke="meta alt 1" />
