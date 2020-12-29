@@ -132,7 +132,9 @@
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="meta alt d" />
   </action>
-  <action id="GotoAction" />
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="meta alt a" />
+  </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="ctrl meta o" />
@@ -285,6 +287,9 @@
     <keyboard-shortcut first-keystroke="meta alt u" />
   </action>
   <action id="Vcs.RollbackChangedLines" />
+  <action id="Vcs.Show.Shelf">
+    <keyboard-shortcut first-keystroke="meta alt s" />
+  </action>
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
