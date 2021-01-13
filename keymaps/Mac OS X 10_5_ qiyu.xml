@@ -34,9 +34,6 @@
     <keyboard-shortcut first-keystroke="shift meta 9" />
     <keyboard-shortcut first-keystroke="meta 5" />
   </action>
-  <action id="Annotate">
-    <keyboard-shortcut first-keystroke="meta alt b" />
-  </action>
   <action id="ChangesView.AddUnversioned" />
   <action id="ChangesView.Commit">
     <keyboard-shortcut first-keystroke="meta alt c" />
@@ -50,7 +47,7 @@
   </action>
   <action id="ClassNameCompletion" />
   <action id="CodeCompletion">
-    <keyboard-shortcut first-keystroke="ctrl meta space" />
+    <keyboard-shortcut first-keystroke="meta alt b" />
   </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="meta alt slash" />
@@ -66,6 +63,8 @@
     <keyboard-shortcut first-keystroke="meta f9" />
     <keyboard-shortcut first-keystroke="shift f9" />
   </action>
+  <action id="Console.History.Browse" />
+  <action id="Console.Jdbc.BrowseHistory" />
   <action id="Console.TableResult.CloneRow">
     <keyboard-shortcut first-keystroke="ctrl meta down" />
   </action>
@@ -80,6 +79,7 @@
   <action id="DatabaseView.CopyDdlAction" />
   <action id="DatabaseView.PropertiesAction" />
   <action id="DatabaseView.ShowDiff" />
+  <action id="DatabaseView.SqlGenerator" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="f6" />
     <keyboard-shortcut first-keystroke="shift f5" />
@@ -92,6 +92,7 @@
     <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
   <action id="Diff.SelectedChange" />
+  <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="Diff.UpdatedFiles" />
   <action id="DuplicatesForm.SendToRight" />
@@ -100,9 +101,9 @@
   </action>
   <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockStart" />
-  <action id="EditorDuplicate" />
-  <action id="EditorDuplicateLines">
-    <keyboard-shortcut first-keystroke="meta d" />
+  <action id="EditorCompleteStatement">
+    <keyboard-shortcut first-keystroke="shift meta enter" />
+    <keyboard-shortcut first-keystroke="meta alt enter" />
   </action>
   <action id="EditorMoveToPageBottom">
     <keyboard-shortcut first-keystroke="meta page_down" />
@@ -112,6 +113,7 @@
     <keyboard-shortcut first-keystroke="meta page_up" />
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
+  <action id="EditorStartNewLineBefore" />
   <action id="EditorToggleCase" />
   <action id="ExternalSystem.OpenConfig">
     <keyboard-shortcut first-keystroke="f4" />
@@ -152,6 +154,9 @@
     <keyboard-shortcut first-keystroke="shift meta f12" />
     <keyboard-shortcut first-keystroke="meta f11" />
   </action>
+  <action id="HighlightUsagesInFile">
+    <keyboard-shortcut first-keystroke="meta f7" />
+  </action>
   <action id="Images.ShowThumbnails" />
   <action id="IntroduceConstant" />
   <action id="IntroduceField" />
@@ -160,6 +165,7 @@
     <keyboard-shortcut first-keystroke="meta alt comma" />
     <keyboard-shortcut first-keystroke="meta alt 0" />
   </action>
+  <action id="JumpToLastChange" />
   <action id="JumpToLastWindow" />
   <action id="Maven.Reimport">
     <keyboard-shortcut first-keystroke="meta alt r" />
@@ -173,6 +179,7 @@
     <keyboard-shortcut first-keystroke="shift alt up" />
     <keyboard-shortcut first-keystroke="meta alt up" />
   </action>
+  <action id="Mvc.RunTarget" />
   <action id="NavBar-navigate">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -187,11 +194,13 @@
     <keyboard-shortcut first-keystroke="ctrl o" />
     <keyboard-shortcut first-keystroke="meta o" />
   </action>
+  <action id="PerforceDirect.Edit" />
   <action id="PreviousOccurence" />
   <action id="ProjectViewChangeView" />
   <action id="ProjectViewEditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="QuickActionPopup" />
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="ctrl j" />
     <mouse-shortcut keystroke="control button2" />
@@ -214,11 +223,17 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="meta alt e" />
+  </action>
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
+  </action>
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="meta alt g" />
   </action>
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="f1" />
@@ -277,10 +292,15 @@
     <keyboard-shortcut first-keystroke="ctrl meta alt o" />
   </action>
   <action id="Uml.ShowDiff" />
+  <action id="Unwrap">
+    <keyboard-shortcut first-keystroke="shift meta delete" />
+    <keyboard-shortcut first-keystroke="shift meta back_space" />
+  </action>
   <action id="UpdateRunningApplication">
     <keyboard-shortcut first-keystroke="meta f10" />
     <keyboard-shortcut first-keystroke="f10" />
   </action>
+  <action id="Vcs.Log.AnnotateRevisionAction" />
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift meta u" />
