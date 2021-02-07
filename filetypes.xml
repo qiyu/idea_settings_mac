@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="build" type="AUTO_DETECTED" />
       <mapping pattern="1" type="PLAIN_TEXT" />
       <mapping pattern=".env.prepub" type="PLAIN_TEXT" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
