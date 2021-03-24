@@ -2,6 +2,7 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="WITH_SUBDIRECTORIES" value="false" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
@@ -10,9 +11,9 @@
     <mask>*.mxml</mask>
     <mask>*.html</mask>
     <mask>*.js</mask>
-    <mask>*.js*</mask>
     <mask>*.xml</mask>
-    <mask>*.java</mask>
     <mask>*.jsx</mask>
+    <mask>*.java</mask>
+    <mask>*.js*</mask>
   </component>
 </application>
