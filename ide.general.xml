@@ -10,5 +10,6 @@
     <entry key="ide.editor.tabs.open.at.the.end" value="true" />
     <entry key="ide.suppress.double.click.handler" value="true" />
     <entry key="js.debugger.webconsole" value="false" />
+    <entry key="ide.balloon.shadow.size" value="0" />
   </component>
 </application>
