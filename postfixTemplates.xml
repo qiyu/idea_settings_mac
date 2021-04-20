@@ -1,10 +1,16 @@
 <application>
   <component name="PostfixTemplates">
-    <template id="empty@userDefined2" key=".em" provider="builtin.java" language-level="8" topmost="false">
+    <template id="json@userDefined" key=".json" provider="builtin.java" language-level="8" topmost="false">
       <conditions>
-        <condition id="fqn" fqn="java.util.List" />
+        <condition id="non void" />
       </conditions>
-      <template name="fakeKey" value="CollectionUtils.isEmpty($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="JSON.toJSONString($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="eq@userDefined" key=".eq" provider="builtin.java" language-level="8" topmost="false">
+      <conditions>
+        <condition id="non void" />
+      </conditions>
+      <template name="fakeKey" value="Objects.equals($EXPR$, $END$)" description="" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="nem@userDefined" key=".nem" provider="builtin.java" language-level="8" topmost="false">
       <conditions>
@@ -14,25 +20,20 @@
     </template>
     <template id="aftercommit@userDefined" key=".aftercommit" provider="builtin.java" language-level="8" topmost="true">
       <conditions />
-      <template name="fakeKey" value="TransactionSynchronizationManager.registerSynchronization(new TransactionSynchronization() {&#10;    @Override&#10;    public void afterCommit() {&#10;        $EXPR$;&#10;    }&#10;});" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="TransactionSynchronizationManager.registerSynchronization(new TransactionSynchronization() {&#10;    @Override&#10;    public void afterCommit() {&#10;        $EXPR$;&#10;    }&#10;});" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="empty@userDefined2" key=".em" provider="builtin.java" language-level="8" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.util.List" />
+        <condition id="fqn" fqn="java.util.Set" />
+      </conditions>
+      <template name="fakeKey" value="CollectionUtils.isEmpty($EXPR$)" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="empty@userDefined" key=".em" provider="builtin.java" language-level="8" topmost="false">
       <conditions>
         <condition id="fqn" fqn="java.lang.String" />
       </conditions>
       <template name="fakeKey" value="StringUtils.isEmpty($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="eq@userDefined" key=".eq" provider="builtin.java" language-level="8" topmost="false">
-      <conditions>
-        <condition id="non void" />
-      </conditions>
-      <template name="fakeKey" value="Objects.equals($EXPR$, $END$)" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="json@userDefined" key=".json" provider="builtin.java" language-level="8" topmost="false">
-      <conditions>
-        <condition id="non void" />
-      </conditions>
-      <template name="fakeKey" value="JSON.toJSONString($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
   </component>
 </application>
