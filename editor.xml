@@ -4,13 +4,16 @@
     <EXCLUDED_PACKAGE NAME="com.alibaba.druid.util.StringUtils" />
     <EXCLUDED_PACKAGE NAME="com.alibaba.dubbo.common.utils.CollectionUtils" />
     <EXCLUDED_PACKAGE NAME="com.alibaba.dubbo.common.utils.StringUtils" />
+    <EXCLUDED_PACKAGE NAME="com.alibaba.excel.util" />
     <EXCLUDED_PACKAGE NAME="com.alibaba.excel.util.CollectionUtils" />
     <EXCLUDED_PACKAGE NAME="com.aliyun.openservices.shade" />
     <EXCLUDED_PACKAGE NAME="com.souche.bumblebee.trace.util.CollectionUtils" />
     <EXCLUDED_PACKAGE NAME="com.souche.optimus.common.page.Page" />
     <EXCLUDED_PACKAGE NAME="com.souche.optimus.common.util.CollectionUtils" />
+    <EXCLUDED_PACKAGE NAME="com.souche.orbit.sun.utils.StringUtils" />
     <EXCLUDED_PACKAGE NAME="com.souche.shop.utils.StringUtils" />
     <EXCLUDED_PACKAGE NAME="com.sun" />
+    <EXCLUDED_PACKAGE NAME="com.taobao.api.internal.util.StringUtils" />
     <EXCLUDED_PACKAGE NAME="io.vavr" />
     <EXCLUDED_PACKAGE NAME="java.sql.Date" />
     <EXCLUDED_PACKAGE NAME="jdk" />
@@ -19,6 +22,7 @@
     <EXCLUDED_PACKAGE NAME="org.codehaus.plexus.util.StringUtils" />
     <EXCLUDED_PACKAGE NAME="org.springframework.data.domain.Page" />
     <EXCLUDED_PACKAGE NAME="org.springframework.util.CollectionUtils" />
+    <EXCLUDED_PACKAGE NAME="org.springframework.util.StringUtils" />
     <EXCLUDED_PACKAGE NAME="org.terracotta.offheapstore.paging.Page" />
     <EXCLUDED_PACKAGE NAME="sun" />
   </component>
