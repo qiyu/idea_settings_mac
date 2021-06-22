@@ -214,8 +214,8 @@
     </library>
     <library name="Python 3.8 (anki_tool) interpreter library">
       <CLASSES>
-        <root url="file://$USER_HOME$/.pyenv/versions/3.8.0/lib/python3.8" />
-        <root url="file://$USER_HOME$/.pyenv/versions/3.8.0/lib/python3.8/lib-dynload" />
+        <root url="file://$USER_HOME$/.pyenv/versions/3.8.2/lib/python3.8" />
+        <root url="file://$USER_HOME$/.pyenv/versions/3.8.2/lib/python3.8/lib-dynload" />
         <root url="file://$USER_HOME$/Projects/code.aliyun.com/qiyu/anki_tool/venv/lib/python3.8/site-packages" />
         <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2020.2/python_stubs/-116755499" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
@@ -227,8 +227,8 @@
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="file://$USER_HOME$/.pyenv/versions/3.8.0/lib/python3.8" />
-        <root url="file://$USER_HOME$/.pyenv/versions/3.8.0/lib/python3.8/lib-dynload" />
+        <root url="file://$USER_HOME$/.pyenv/versions/3.8.2/lib/python3.8" />
+        <root url="file://$USER_HOME$/.pyenv/versions/3.8.2/lib/python3.8/lib-dynload" />
         <root url="file://$USER_HOME$/Projects/code.aliyun.com/qiyu/anki_tool/venv/lib/python3.8/site-packages" />
         <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2020.2/python_stubs/-116755499" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
