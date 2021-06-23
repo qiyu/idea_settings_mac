@@ -283,6 +283,33 @@
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2and3" />
       </SOURCES>
     </library>
+    <library name="Python 3.8 (myaddon) interpreter library">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.pyenv/versions/3.8.2/lib/python3.8" />
+        <root url="file://$USER_HOME$/.pyenv/versions/3.8.2/lib/python3.8/lib-dynload" />
+        <root url="file://$USER_HOME$/Projects/qiyu/myaddon/venv/lib/python3.8/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2020.2/python_stubs/-1368704810" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.7" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2and3" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.pyenv/versions/3.8.2/lib/python3.8" />
+        <root url="file://$USER_HOME$/.pyenv/versions/3.8.2/lib/python3.8/lib-dynload" />
+        <root url="file://$USER_HOME$/Projects/qiyu/myaddon/venv/lib/python3.8/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2020.2/python_stubs/-1368704810" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.7" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2and3" />
+      </SOURCES>
+    </library>
     <library name="Python 3.8 (user.workflow.D0988D11-538D-493F-B32B-A73F4E708426) interpreter library">
       <CLASSES>
         <root url="file://$USER_HOME$/.pyenv/versions/3.8.0/lib/python3.8" />
@@ -331,10 +358,12 @@
     </library>
     <library name="Python 3.8 (Work) interpreter library">
       <CLASSES>
-        <root url="file://$USER_HOME$/.pyenv/versions/3.8.0/lib/python3.8" />
-        <root url="file://$USER_HOME$/.pyenv/versions/3.8.0/lib/python3.8/lib-dynload" />
+        <root url="file://$USER_HOME$/.pyenv/versions/3.8.2/lib/python3.8" />
+        <root url="file://$USER_HOME$/.pyenv/versions/3.8.2/lib/python3.8/lib-dynload" />
         <root url="file://$USER_HOME$/Work/venv/lib/python3.8/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2020.2/python_stubs/1507716323" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.7" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/3" />
@@ -342,10 +371,12 @@
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="file://$USER_HOME$/.pyenv/versions/3.8.0/lib/python3.8" />
-        <root url="file://$USER_HOME$/.pyenv/versions/3.8.0/lib/python3.8/lib-dynload" />
+        <root url="file://$USER_HOME$/.pyenv/versions/3.8.2/lib/python3.8" />
+        <root url="file://$USER_HOME$/.pyenv/versions/3.8.2/lib/python3.8/lib-dynload" />
         <root url="file://$USER_HOME$/Work/venv/lib/python3.8/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2020.2/python_stubs/1507716323" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.7" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/3" />
